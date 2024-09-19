@@ -1,0 +1,58 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\Map\Images\hospital_1.jpg" />
+    <None Remove="Assets\Map\Images\hospital_2.jpg" />
+    <None Remove="Assets\Map\Images\hospital_3.jpg" />
+    <None Remove="Assets\Map\Images\hospital_4.jpg" />
+    <None Remove="Assets\Map\Images\hospital_5.jpg" />
+    <None Remove="Assets\Map\Images\hospital_6.jpg" />
+    <None Remove="Assets\Map\Images\hospital_7.jpg" />
+    <None Remove="Assets\Map\Images\hotel_1.jpg" />
+    <None Remove="Assets\Map\Images\hotel_2.jpg" />
+    <None Remove="Assets\Map\Images\hotel_3.jpg" />
+    <None Remove="Assets\Map\Images\hotel_4.jpg" />
+    <None Remove="Assets\Map\Images\hotel_5.jpg" />
+    <None Remove="Assets\Map\Images\hotel_6.jpg" />
+    <None Remove="Assets\Map\Images\hotel_7.jpg" />
+    <None Remove="Assets\Map\Images\mappath.png" />
+    <None Remove="Assets\Map\Images\pin.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.AI.OpenAI" Version="1.0.0-beta.17" />
+    <PackageReference Include="Microsoft.Xaml.Behaviors.Wpf" Version="1.1.135" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="Syncfusion.SfBusyIndicator.WPF" Version="*" />
+    <PackageReference Include="Syncfusion.SfInput.WPF" Version="*" />
+    <PackageReference Include="Syncfusion.SfMaps.WPF" Version="*" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\Map\Images\hospital_1.jpg" />
+    <Resource Include="Assets\Map\Images\hospital_2.jpg" />
+    <Resource Include="Assets\Map\Images\hospital_3.jpg" />
+    <Resource Include="Assets\Map\Images\hospital_4.jpg" />
+    <Resource Include="Assets\Map\Images\hospital_5.jpg" />
+    <Resource Include="Assets\Map\Images\hospital_6.jpg" />
+    <Resource Include="Assets\Map\Images\hospital_7.jpg" />
+    <Resource Include="Assets\Map\Images\hotel_1.jpg" />
+    <Resource Include="Assets\Map\Images\hotel_2.jpg" />
+    <Resource Include="Assets\Map\Images\hotel_3.jpg" />
+    <Resource Include="Assets\Map\Images\hotel_4.jpg" />
+    <Resource Include="Assets\Map\Images\hotel_5.jpg" />
+    <Resource Include="Assets\Map\Images\hotel_6.jpg" />
+    <Resource Include="Assets\Map\Images\hotel_7.jpg" />
+    <Resource Include="Assets\Map\Images\mappath.png" />
+    <Resource Include="Assets\Map\Images\pin.png" />
+  </ItemGroup>
+
+</Project>
