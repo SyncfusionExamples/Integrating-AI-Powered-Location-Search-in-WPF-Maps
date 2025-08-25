@@ -33,7 +33,7 @@ This repository contains sample code demonstrating how to integrate AI-Powered L
 			MainPage = new MainPage();
 		}
 		
-	Refer to this [link](https://help.syncfusion.com/maui/licensing/overview) for more details.
+	Refer to this [link](https://help.syncfusion.com/wpf/licensing/overview) for more details.
 	
 3. Clean and build the application.
 
